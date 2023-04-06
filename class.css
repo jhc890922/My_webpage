@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+}
+
+#prelude {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(204, 153, 255);
+    z-index: 999;
+}
+
+#top_section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 18vh;
+    z-index: -1;
+}
+
+#left_section {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    width: 22vw;
+    height: 90vh;
+    z-index: -2;
+}
+
+.name {
+    text-decoration-color: black;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 6vw;
+    letter-spacing: 13px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Myprofile</title>
+    <link rel="stylesheet" href=".\class.css" id="screen">
+    <meta http-equiv="Content-Type" content="text/html;text/js charset=UTF-8" />
+</head>
+
+<body>
+    <script>
+        liff.init({
+            liffId: '1660811676-XaxWjA40',
+            withLoginOnExternalBrowser: true // Enable automatic login process(建議是從Line用戶端開啟時再用)
+        }).then(() => {
+            console.log(liff.isLoggedIn()); // 判斷開啟此網頁的 LINE 使用者是否為登入狀態
+        });
+    </script>
+    <h1 class="name">LALA</h1>
+
+    <canvas id="prelude"></canvas>
+    <canvas id="top_section" style="background-color:plum;"></canvas>
+    <canvas id="left_section" style="background-color: rgb(179, 102, 255);"></canvas>
+
+    <img src="https://i.ibb.co/qM26pHy/profile-picture.png" alt="profile_picture" style="width: 150px;height: 150px;top: 23%;left: 6%;position: absolute;">
+
+    <link rel="stylesheet" href="buttons.css">
+
+
+
+
+    <button type="button" onclick="profile()" class=" btn btn-outline-primary" style="top: 50%; left: 0;padding-right: 140px;">Profile</button>
+    <button type="button" onclick="notyet()" class=" btn btn-outline-primary" style="top: 60%; left: 0;padding-right: 140px;">Award</button>
+    <button type="button" onclick="notyet()" class=" btn btn-outline-primary" style="top: 70%;left: 0;padding-right: 118px;">Program</button>
+    <button type="button" onclick="notyet()" class=" btn btn-outline-primary" style="top: 80%;left: 0;padding-right: 133px;">Picture</button>
+
+    <h1 id="title"></h1>
+    <p id="article" charset="big5"></p>
+    <img id="img_in_profile" src="https://i.ibb.co/BnnTJPH/picture-in-profile.jpg" alt="picture_in_profile" style="position: absolute;top: 12vw;right: 10vh;width: 277px;height: 370px;display: none;">
+
+    <h1 id="trying"></h1>
+
+    <script src="article.js"></script>
+    <script src="nothing.js"></script>
+    <script src="leon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script id src="animate.js"></script>
+
+</body>
+
+
+</html>

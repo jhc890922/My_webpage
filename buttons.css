@@ -1,0 +1,25 @@
+.btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 125px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-outline-primary {
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+}
+
+.btn-outline-primary:hover {
+    background-color: #dc3545;
+    color: white;
+}
